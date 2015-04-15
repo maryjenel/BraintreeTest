@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.4.2"
+  },
+  "applications": {
+    "Appointest": {
+      "applicationId": "zvI6hei4pf0h0xoOHlHioEoqgDlYlJ77Pgf52bCW",
+      "masterKey": "t0UVwJXrQ1VDMzm69Lw6RhXcHpTLRJfP7l4CpmB8"
+    },
+    "_default": {
+      "link": "Appointest"
+    }
+  }
+}

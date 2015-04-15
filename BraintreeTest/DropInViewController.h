@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Braintree/Braintree.h>
 
 @interface DropInViewController : UIViewController
 

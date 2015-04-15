@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62BF76A71ADDD22700507A06 /* DropInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BF76A61ADDD22700507A06 /* DropInViewController.m */; };
 		62C8B1641ADD676C003250E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C8B1631ADD676C003250E0 /* main.m */; };
 		62C8B1671ADD676C003250E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C8B1661ADD676C003250E0 /* AppDelegate.m */; };
 		62C8B16A1ADD676C003250E0 /* BraintreeTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62C8B1681ADD676C003250E0 /* BraintreeTest.xcdatamodeld */; };
@@ -15,6 +16,7 @@
 		62C8B1721ADD676C003250E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C8B1711ADD676C003250E0 /* Images.xcassets */; };
 		62C8B1751ADD676C003250E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62C8B1731ADD676C003250E0 /* LaunchScreen.xib */; };
 		62C8B1811ADD676C003250E0 /* BraintreeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C8B1801ADD676C003250E0 /* BraintreeTestTests.m */; };
+		6B86838386047F82F6640851 /* libPods-BraintreeTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DF340F825546E131937C18 /* libPods-BraintreeTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14DF340F825546E131937C18 /* libPods-BraintreeTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BraintreeTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B68D6A36466C3941DE3072D /* Pods-BraintreeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraintreeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BraintreeTest/Pods-BraintreeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		62BF76A51ADDD22700507A06 /* DropInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropInViewController.h; sourceTree = "<group>"; };
+		62BF76A61ADDD22700507A06 /* DropInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropInViewController.m; sourceTree = "<group>"; };
 		62C8B15E1ADD676C003250E0 /* BraintreeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BraintreeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C8B1621ADD676C003250E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62C8B1631ADD676C003250E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +48,7 @@
 		62C8B17A1ADD676C003250E0 /* BraintreeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BraintreeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C8B17F1ADD676C003250E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62C8B1801ADD676C003250E0 /* BraintreeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BraintreeTestTests.m; sourceTree = "<group>"; };
+		A5D1B8C6BE921D5B2CC796CE /* Pods-BraintreeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraintreeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-BraintreeTest/Pods-BraintreeTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B86838386047F82F6640851 /* libPods-BraintreeTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +76,8 @@
 				62C8B1601ADD676C003250E0 /* BraintreeTest */,
 				62C8B17D1ADD676C003250E0 /* BraintreeTestTests */,
 				62C8B15F1ADD676C003250E0 /* Products */,
+				B1AFFA81CA1D076D4EA1A863 /* Pods */,
+				B4625E44F55ABF8175EA8E01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +95,8 @@
 			children = (
 				62C8B1651ADD676C003250E0 /* AppDelegate.h */,
 				62C8B1661ADD676C003250E0 /* AppDelegate.m */,
+				62BF76A51ADDD22700507A06 /* DropInViewController.h */,
+				62BF76A61ADDD22700507A06 /* DropInViewController.m */,
 				62C8B16B1ADD676C003250E0 /* ViewController.h */,
 				62C8B16C1ADD676C003250E0 /* ViewController.m */,
 				62C8B16E1ADD676C003250E0 /* Main.storyboard */,
@@ -122,6 +134,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B1AFFA81CA1D076D4EA1A863 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B68D6A36466C3941DE3072D /* Pods-BraintreeTest.debug.xcconfig */,
+				A5D1B8C6BE921D5B2CC796CE /* Pods-BraintreeTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4625E44F55ABF8175EA8E01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14DF340F825546E131937C18 /* libPods-BraintreeTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62C8B1841ADD676D003250E0 /* Build configuration list for PBXNativeTarget "BraintreeTest" */;
 			buildPhases = (
+				72E74736B052A84A60EE976C /* Check Pods Manifest.lock */,
 				62C8B15A1ADD676C003250E0 /* Sources */,
 				62C8B15B1ADD676C003250E0 /* Frameworks */,
 				62C8B15C1ADD676C003250E0 /* Resources */,
+				0382B8E84A1448FDF9BC7587 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,6 +248,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0382B8E84A1448FDF9BC7587 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BraintreeTest/Pods-BraintreeTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72E74736B052A84A60EE976C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		62C8B15A1ADD676C003250E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -224,6 +288,7 @@
 			files = (
 				62C8B1671ADD676C003250E0 /* AppDelegate.m in Sources */,
 				62C8B1641ADD676C003250E0 /* main.m in Sources */,
+				62BF76A71ADDD22700507A06 /* DropInViewController.m in Sources */,
 				62C8B16D1ADD676C003250E0 /* ViewController.m in Sources */,
 				62C8B16A1ADD676C003250E0 /* BraintreeTest.xcdatamodeld in Sources */,
 			);
@@ -349,6 +414,7 @@
 		};
 		62C8B1851ADD676D003250E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B68D6A36466C3941DE3072D /* Pods-BraintreeTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BraintreeTest/Info.plist;
@@ -359,6 +425,7 @@
 		};
 		62C8B1861ADD676D003250E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D1B8C6BE921D5B2CC796CE /* Pods-BraintreeTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BraintreeTest/Info.plist;
@@ -420,6 +487,7 @@
 				62C8B1861ADD676D003250E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62C8B1871ADD676D003250E0 /* Build configuration list for PBXNativeTarget "BraintreeTestTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +496,7 @@
 				62C8B1891ADD676D003250E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
